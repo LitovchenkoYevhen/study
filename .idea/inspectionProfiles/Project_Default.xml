@@ -1,0 +1,41 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="16">
+            <item index="0" class="java.lang.String" itemvalue="django-notifications-hq" />
+            <item index="1" class="java.lang.String" itemvalue="elasticsearch" />
+            <item index="2" class="java.lang.String" itemvalue="PyDocX" />
+            <item index="3" class="java.lang.String" itemvalue="certifi" />
+            <item index="4" class="java.lang.String" itemvalue="django-pagination-bootstrap" />
+            <item index="5" class="java.lang.String" itemvalue="elasticsearch-dsl" />
+            <item index="6" class="java.lang.String" itemvalue="django-rosetta" />
+            <item index="7" class="java.lang.String" itemvalue="requests" />
+            <item index="8" class="java.lang.String" itemvalue="urllib3" />
+            <item index="9" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="10" class="java.lang.String" itemvalue="redis" />
+            <item index="11" class="java.lang.String" itemvalue="uWSGI" />
+            <item index="12" class="java.lang.String" itemvalue="celery" />
+            <item index="13" class="java.lang.String" itemvalue="kombu" />
+            <item index="14" class="java.lang.String" itemvalue="vine" />
+            <item index="15" class="java.lang.String" itemvalue="flower" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="api.services._save_user_file.assert_called_once_with" />
+          <option value="api.services._get_user_file.assert_called_once_with" />
+          <option value="api.services._get_user_file_url.assert_called_once_with" />
+          <option value="api.serializers.validate_text_limitation.assert_caled_once_with" />
+          <option value="api.serializers.validate_text_limitation.assert_called_once_with" />
+          <option value="api.serializers.validate_sender.called_once_with" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
