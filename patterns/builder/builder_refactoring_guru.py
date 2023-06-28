@@ -39,6 +39,7 @@ class ConcreteBuilder1(Builder):
         Новый экземпляр строителя должен содержать пустой объект продукта,
         который используется в дальнейшей сборке.
         """
+        self._product = None
         self.reset()
 
     def reset(self) -> None:
